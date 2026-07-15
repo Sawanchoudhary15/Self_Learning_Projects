@@ -1,0 +1,8 @@
+192.168.1.1 - GET /index.html 200
+192.168.1.2 - GET /admin 404
+10.0.0.1 - POST /login 200
+192.168.1.1 - GET /dashboard 200
+10.0.0.1 - POST /login 403
+192.168.1.2 - GET /admin 404
+192.168.1.1 - GET /secret 403
+10.0.0.2 - GET /index.html 200
